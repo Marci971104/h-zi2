@@ -1,0 +1,47 @@
+https://szit.hu/doku.php?id=oktatas:programozas:tiszta_kod
+
+
+lambda kifejezés 
+
+egyszerű gombot tartalmazó program 
+
+app.java 
+
+ablak generálás 
+main --
+public class App {
+    public static void main(String[] args) throws Exception {
+        mainWindow mainWindow = new mainWindow();
+        mainWindow.setVisible(true);
+    }
+}
+///////
+import javax.swing.JFrame;
+
+public class mainWindow extends JFrame {
+
+    public mainWindow() {
+        this.setDefaultCloseOperation(
+            JFrame.EXIT_ON_CLOSE);
+            this.setSize(300,250);
+    }
+    
+}
+main window 
+
+            this.add(goButton);
+            this.goButton.addActionListener(
+                new ActionListener(){
+                    public void actionPerformed(ActionEvent event)
+                }
+                
+            );
+            egyszerűsítés 
+
+
+
+forkolás
+
+repoker át kell nevezni 
+
+okpoker 
